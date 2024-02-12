@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Metales Herrera y Asociados S.A DE C.V</title>
+    <link rel="stylesheet" href="stilos.css"> 
+</head>
+<body>
+    <header>
+        <a href="proveedor.html">&lt; Volver al Menú</a>
+        <h1>Agregar Proveedor</h1>
+    </header>
+    <form method="post" action="agregar_proveedor.php"> 
+        <label for="id_prov">ID del Proveedor:</label>
+        <input type="text" id="id_prov" name="id_prov" required>
+
+        <label for="nom_prov">Nombre del Proveedor:</label>
+        <input type="text" id="nom_prov" name="nom_prov" required>
+
+        <label for="contacto">Contacto:</label>
+        <input type="text" id="contacto" name="contacto" required>
+
+        <input type="submit" value="Agregar Proveedor">
+    </form>
+</body>
+</html>

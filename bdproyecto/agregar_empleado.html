@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stilos.css">
+    <title>Metales Herrera y Asociados S.A DE C.V</title>
+</head>
+<body>
+    <header>
+        <a href="empleado.html">&lt; Volver al Menú</a>
+        <h1>Agregar Empleado</h1>
+    </header>
+
+    <form method="post" action="agregar_empleado.php">
+        <label for="id_emp">ID Empleado:</label>
+        <input type="number" id="id_emp" name="id_emp" required>
+
+        <label for="nom_emp">Nombre Empleado:</label>
+        <input type="text" id="nom_emp" name="nom_emp" required>
+
+        <label for="puesto_emp">Puesto:</label>
+        <input type="text" id="puesto_emp" name="puesto_emp" required>
+
+        <input type="submit" value="Agregar Empleado">
+    </form>
+</body>
+</html>
